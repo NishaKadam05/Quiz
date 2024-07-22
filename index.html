@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="section">
+        <h1 class="heading">Quiz App</h1>
+        <div class="container">
+            <h1>In web design, what does CSS stand for?</h1>
+            <div class="select">
+                <div class="option">
+                    <button class="btn-1" id="wrong1" onclick="wrongAns1()">A</button>
+                    <button class="btn-2" id="incorrect1" onclick="wrongAns1()">Counter Strike Source</button>
+                </div>
+                <div class="option">
+                    <button class="btn-1" id="wrong2" onclick="wrongAns2()">B</button>
+                    <button class="btn-2" id="incorrect2" onclick="wrongAns2()">Corrective Style Sheet</button>
+                </div>
+                <div class="option">
+                    <button class="btn-1" id="wrong3" onclick="wrongAns3()">C</button>
+                    <button class="btn-2" id="incorrect3" onclick="wrongAns3()">Computer Style Sheet</button>
+                </div>
+                <div class="option">
+                    <button class="right-btn" id="right" onclick="correct()">D</button>
+                    <button class="crct-btn" id="crct" onclick="correct()">Cascaded Style Sheet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
